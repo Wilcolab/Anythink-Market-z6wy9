@@ -8,6 +8,15 @@ const Banner = () => {
         <img src={logo} alt="banner" />
         <div>
           <span id="get-part">A place to get</span>
+          <form>
+            <input
+              style={{ width: "250px" }}
+              type="text"
+              placeholder="What is it that you truly desire?"
+              name="item"
+              id="search=box"
+            />
+          </form>
           <span> the cool stuff.</span>
         </div>
       </div>
