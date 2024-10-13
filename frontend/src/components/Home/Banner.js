@@ -5,9 +5,10 @@ const Banner = () => {
   return (
     <div className="banner text-white">
       <div className="container p-4 text-center">
-        <img src={logo} alt="banner" />
+        <img src={logo}/>
         <div>
-          <span id="get-part">A place to get</span>
+          <span>A place to </span>
+          <span id="get-part">get</span>
           <span> the cool stuff.</span>
         </div>
       </div>
